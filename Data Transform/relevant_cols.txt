@@ -1,26 +1,27 @@
 Relevant Columns to Extract from EADA_All_Data_Combined_2019_2020
-1 unitid
-2 institution_name
-3 addr1_txt
-4 addr2_txt
-5 city_txt
-6 state_cd
-7 zip_text
-8 ClassificationCode
-9 classification_name
-10 ClassificationOther
-11 EFMaleCount
-12 EFFemaleCount
-13 EFTotalCount
-14 sector_cd
-15 sector_name
-21 RECRUITEXP_MEN
-26 RECRUITEXP_TOTAL
-166 GRND_TOTAL_REVENUE
-167 GRND_TOTAL_EXPENSE
-427 OPEXPPERTEAM_MEN_Baseball
-428 OPEXPPERTEAM_MEN_Bskball
-3609 REV_MEN_Baseball
-3610 REV_MEN_Bskball
-3942 EXP_MEN_Baseball
-3943 EXP_MEN_Bskball
+Original col. no.|new col. no.|name of col.
+1 1 unitid
+2 2 institution_name
+3 3 addr1_txt
+4 4 addr2_txt
+5 5 city_txt
+6 6 state_cd
+7 7 zip_text
+8 8 ClassificationCode
+9 9 classification_name
+10 10 ClassificationOther
+11 11 EFMaleCount
+12 12 EFFemaleCount
+13 13 EFTotalCount
+14 14 sector_cd
+15 15 sector_name
+23 16 RECRUITEXP_MEN
+26 17 RECRUITEXP_TOTAL
+166 18 GRND_TOTAL_REVENUE
+167 19 GRND_TOTAL_EXPENSE
+427 20 OPEXPPERTEAM_MEN_Baseball
+428 21 OPEXPPERTEAM_MEN_Bskball
+3609 22 REV_MEN_Baseball
+3610 23 REV_MEN_Bskball
+3942 24 EXP_MEN_Baseball
+3943 25 EXP_MEN_Bskball
