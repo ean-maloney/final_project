@@ -11,5 +11,8 @@ We have three preliminary datasets we will use.
 ## EDA
 
 ## Database Mockup
+Our database will consist of four tables, as shown below:
+
+![ERD](https://user-images.githubusercontent.com/80861610/131764415-34070f18-d084-422f-8f86-49d6e630ac58.png)
 
 ## Machine Learning Mockup
