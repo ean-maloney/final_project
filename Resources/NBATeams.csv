@@ -1,0 +1,31 @@
+﻿Conference,Division,Team,Location,Arena,Capacity,Coordinates
+Eastern,Atlantic,Boston Celtics,"Boston, Massachusetts",TD Garden,18624,42.366303°N 71.062228°W
+Eastern,Atlantic,Brooklyn Nets,"New York City, New York",Barclays Center,17732,40.68265°N 73.974689°W
+Eastern,Atlantic,New York Knicks,"New York City, New York",Madison Square Garden,19812,40.750556°N 73.993611°W
+Eastern,Atlantic,Philadelphia 76ers,"Philadelphia, Pennsylvania",Wells Fargo Center,21600,39.901111°N 75.171944°W
+Eastern,Atlantic,Toronto Raptors,"Toronto, Ontario",Scotiabank Arena,19800,43.643333°N 79.379167°W
+Eastern,Central,Chicago Bulls,"Chicago, Illinois",United Center,20917,41.880556°N 87.674167°W
+Eastern,Central,Cleveland Cavaliers,"Cleveland, Ohio",Rocket Mortgage FieldHouse,20562,41.496389°N 81.688056°W
+Eastern,Central,Detroit Pistons,"Detroit, Michigan",Little Caesars Arena,20491,42.696944°N 83.245556°W
+Eastern,Central,Indiana Pacers,"Indianapolis, Indiana",Bankers Life Fieldhouse,17923,39.763889°N 86.155556°W
+Eastern,Central,Milwaukee Bucks,"Milwaukee, Wisconsin",Fiserv Forum,18717,43.043611°N 87.916944°W
+Eastern,Southeast,Atlanta Hawks,"Atlanta, Georgia",State Farm Arena,15711,33.757222°N 84.396389°W
+Eastern,Southeast,Charlotte Hornets,"Charlotte, North Carolina",Spectrum Center,19077,35.225°N 80.839167°W
+Eastern,Southeast,Miami Heat,"Miami, Florida",FTX Arena,19600,25.781389°N 80.188056°W
+Eastern,Southeast,Orlando Magic,"Orlando, Florida",Amway Center,18846,28.539167°N 81.383611°W
+Eastern,Southeast,Washington Wizards,"Washington, D.C.",Capital One Arena,20356,38.898056°N 77.020833°W
+Western,Northwest,Denver Nuggets,"Denver, Colorado",Ball Arena,19520,39.748611°N 105.0075°W
+Western,Northwest,Minnesota Timberwolves,"Minneapolis, Minnesota",Target Center,19356,44.979444°N 93.276111°W
+Western,Northwest,Oklahoma City Thunder,"Oklahoma City, Oklahoma",Paycom Center,18203,35.463333°N 97.515°W
+Western,Northwest,Portland Trail Blazers,"Portland, Oregon",Moda Center,19441,45.531667°N 122.666667°W
+Western,Northwest,Utah Jazz,"Salt Lake City, Utah",Vivint Arena,19911,40.768333°N 111.901111°W
+Western,Pacific,Golden State Warriors,"San Francisco, California",Chase Center,18064,37.768056°N 122.3875°W
+Western,Pacific,Los Angeles Clippers,"Los Angeles, California",Staples Center,19060,34.043056°N 118.267222°W
+Western,Pacific,Los Angeles Lakers,"Los Angeles, California",Staples Center,18997,34.043056°N 118.267222°W
+Western,Pacific,Phoenix Suns,"Phoenix, Arizona",Footprint Center,18055,33.445833°N 112.071389°W
+Western,Pacific,Sacramento Kings,"Sacramento, California",Golden 1 Center,17500,38.649167°N 121.518056°W
+Western,Southwest,Dallas Mavericks,"Dallas, Texas",American Airlines Center,19200,32.790556°N 96.810278°W
+Western,Southwest,Houston Rockets,"Houston, Texas",Toyota Center,18055,29.750833°N 95.362222°W
+Western,Southwest,Memphis Grizzlies,"Memphis, Tennessee",FedExForum,18119,35.138333°N 90.050556°W
+Western,Southwest,New Orleans Pelicans,"New Orleans, Louisiana",Smoothie King Center,16867,29.948889°N 90.081944°W
+Western,Southwest,San Antonio Spurs,"San Antonio, Texas",AT&T Center,18418,29.426944°N 98.4375°W

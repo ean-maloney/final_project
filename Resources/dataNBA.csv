@@ -1,0 +1,31 @@
+Team,City,State,Region,Latitude,Longitude
+Boston Celtics,Boston,MA,NE,42.366303,-71.062228
+Brooklyn Nets,New York City,NY,MA,40.68265,-73.974689
+New York Knicks,New York City,NY,MA,40.750556,-73.993611
+Philadelphia 76ers,Philadelphia,PA,MA,39.901111,-75.171944
+Toronto Raptors,Toronto,Ontario,Ontario,43.643333,-79.379167
+Chicago Bulls,Chicago,IL,ENC,41.880556,-87.674167
+Cleveland Cavaliers,Cleveland,OH,ENC,41.496389,-81.688056
+Detroit Pistons,Detroit,MI,ENC,42.696944,-83.245556
+Indiana Pacers,Indianapolis,IN,ENC,39.763889,-86.155556
+Milwaukee Bucks,Milwaukee,WI,ENC,43.043611,-87.916944
+Atlanta Hawks,Atlanta,GA,SA,33.757222,-84.396389
+Charlotte Hornets,Charlotte,NC,SA,35.225,-80.839167
+Miami Heat,Miami,FL,SA,25.781389,-80.188056
+Orlando Magic,Orlando,FL,SA,28.539167,-81.383611
+Washington Wizards,Washington,DC,SA,38.898056,-77.020833
+Denver Nuggets,Denver,CO,MNT,39.748611,-105.0075
+Minnesota Timberwolves,Minneapolis,MN,WNC,44.979444,-93.276111
+Oklahoma City Thunder,Oklahoma City,OK,WSC,35.463333,-97.515
+Portland Trail Blazers,Portland,OR,PAC,45.531667,-122.666667
+Utah Jazz,Salt Lake City,UT,MNT,40.768333,-111.901111
+Golden State Warriors,San Francisco,CA,PAC,37.768056,-122.3875
+Los Angeles Clippers,Los Angeles,CA,PAC,34.043056,-118.267222
+Los Angeles Lakers,Los Angeles,CA,PAC,34.043056,-118.267222
+Phoenix Suns,Phoenix,AZ,MNT,33.445833,-112.071389
+Sacramento Kings,Sacramento,CA,PAC,38.649167,-121.518056
+Dallas Mavericks,Dallas,TX,WSC,32.790556,-96.810278
+Houston Rockets,Houston,TX,WSC,29.750833,-95.362222
+Memphis Grizzlies,Memphis,TN,ESC,35.138333,-90.050556
+New Orleans Pelicans,New Orleans,LA,WSC,29.948889,-90.081944
+San Antonio Spurs,San Antonio,TX,WSC,29.426944,-98.4375
