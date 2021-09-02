@@ -38,6 +38,7 @@ CREATE TABLE "nba_geo" (
     "team" VARCHAR   NOT NULL,
     "city" VARCHAR   NOT NULL,
     "state_cd" VARCHAR(2)   NOT NULL,
+    "region" VARCHAR(3)   NOT NULL,
     "stadium_lat" COORD   NOT NULL,
     "stadium_long" COORD   NOT NULL,
     CONSTRAINT "pk_nba_geo" PRIMARY KEY (
@@ -49,6 +50,7 @@ CREATE TABLE "mlb_geo" (
     "team" VARCHAR   NOT NULL,
     "city" VARCHAR   NOT NULL,
     "state_cd" VARCHAR(2)   NOT NULL,
+    "region" VARCHAR(3)   NOT NULL,
     "stadium_lat" COORD   NOT NULL,
     "stadium_long" COORD   NOT NULL,
     CONSTRAINT "pk_mlb_geo" PRIMARY KEY (
@@ -61,6 +63,7 @@ CREATE TABLE "school_geo" (
     "institution_name" VARCHAR   NOT NULL,
     "school_lat" COORD   NOT NULL,
     "school_long" COORD   NOT NULL,
+    "region" VARCHAR(3)   NOT NULL,
     "nearest_nba" VARCHAR   NOT NULL,
     "nearest_nba_lat" COORD   NOT NULL,
     "nearest_nba_long" COORD   NOT NULL,
