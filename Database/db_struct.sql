@@ -39,8 +39,8 @@ CREATE TABLE "nba_geo" (
     "city" VARCHAR   NOT NULL,
     "state_cd" VARCHAR(2)   NOT NULL,
     "region" VARCHAR(3)   NOT NULL,
-    "stadium_lat" COORD   NOT NULL,
-    "stadium_long" COORD   NOT NULL,
+    "stadium_lat" NUMERIC(6,3)   NOT NULL,
+    "stadium_long" NUMERIC(6,3)   NOT NULL,
     CONSTRAINT "pk_nba_geo" PRIMARY KEY (
         "team"
      )
@@ -51,8 +51,8 @@ CREATE TABLE "mlb_geo" (
     "city" VARCHAR   NOT NULL,
     "state_cd" VARCHAR(2)   NOT NULL,
     "region" VARCHAR(3)   NOT NULL,
-    "stadium_lat" COORD   NOT NULL,
-    "stadium_long" COORD   NOT NULL,
+    "stadium_lat" NUMERIC(6,3)   NOT NULL,
+    "stadium_long" NUMERIC(6,3)   NOT NULL,
     CONSTRAINT "pk_mlb_geo" PRIMARY KEY (
         "team"
      )
@@ -61,25 +61,21 @@ CREATE TABLE "mlb_geo" (
 CREATE TABLE "school_geo" (
     "unitid" VARCHAR(6)   NOT NULL,
     "institution_name" VARCHAR   NOT NULL,
-    "school_lat" COORD   NOT NULL,
-    "school_long" COORD   NOT NULL,
+    "school_lat" NUMERIC(6,3)   NOT NULL,
+    "school_long" NUMERIC(6,3)   NOT NULL,
     "region" VARCHAR(3)   NOT NULL,
     "nearest_nba" VARCHAR   NOT NULL,
-    "nearest_nba_lat" COORD   NOT NULL,
-    "nearest_nba_long" COORD   NOT NULL,
-    "dist_nearest_nba" INT   NOT NULL,
+    "dist_nearest_nba" NUMERIC(6,1)   NOT NULL,
     "nearest_mlb" VARCHAR   NOT NULL,
-    "nearest_mlb_lat" COORD   NOT NULL,
-    "nearest_mlb_long" COORD   NOT NULL,
-    "dist_nearest_mlb" INT   NOT NULL
+    "dist_nearest_mlb" NUMERIC(6,1)   NOT NULL
 );
 
-ALTER TABLE "eada" ADD CONSTRAINT "fk_eada_unitid_institution_name" FOREIGN KEY("unitid", "institution_name")
-REFERENCES "school_geo" ("unitid", "institution_name");
+ALTER TABLE "school_geo" ADD CONSTRAINT "fk_school_geo_unitid_institution_name" FOREIGN KEY("unitid", "institution_name")
+REFERENCES "eada" ("unitid", "institution_name");
 
-ALTER TABLE "nba_geo" ADD CONSTRAINT "fk_nba_geo_team_stadium_lat_stadium_long" FOREIGN KEY("team", "stadium_lat", "stadium_long")
-REFERENCES "school_geo" ("nearest_nba", "nearest_nba_lat", "nearest_nba_long");
+ALTER TABLE "school_geo" ADD CONSTRAINT "fk_school_geo_nearest_nba" FOREIGN KEY("nearest_nba")
+REFERENCES "nba_geo" ("team");
 
-ALTER TABLE "mlb_geo" ADD CONSTRAINT "fk_mlb_geo_team_stadium_lat_stadium_long" FOREIGN KEY("team", "stadium_lat", "stadium_long")
-REFERENCES "school_geo" ("nearest_mlb", "nearest_mlb_lat", "nearest_mlb_long");
+ALTER TABLE "school_geo" ADD CONSTRAINT "fk_school_geo_nearest_mlb" FOREIGN KEY("nearest_mlb")
+REFERENCES "mlb_geo" ("team");
 
