@@ -6,19 +6,19 @@ Cleveland Indians,Cleveland,OH,ENC,41.49583333,-81.68527778
 Detroit Tigers,Detroit,MI,ENC,42.33916667,-83.04861111
 Houston Astros,Houston,TX,WSC,29.75694444,-95.35555556
 Kansas City Royals,Kansas City,MO,WNC,39.051,-94.48
-Los Angeles Angels,Anaheim,CA,PAC,33.80027778,-117.88277778
+Los Angeles Angels,Anaheim,CA,PAC,33.80027778,-117.8827778
 Minnesota Twins,Minneapolis,MN,WNC,44.98166667,-93.27833333
 New York Yankees,Bronx,NY,MA,40.82916667,-73.92638889
-Oakland Athletics,Oakland,CA,PAC,37.75166667,-122.20055556
+Oakland Athletics,Oakland,CA,PAC,37.75166667,-122.2005556
 Seattle Mariners,Seattle,WA,PAC,47.591,-122.333
 Tampa Bay Rays,Tampa Bay,FL,SA,27.76833333,-82.65333333
 Texas Rangers,Arlington,TX,WSC,32.74736111,-97.08416667
-Toronto Blue Jays,Toronto,,,43.64138889,-79.38916667
-Arizona Diamondbacks,Phoenix,AZ,MNT,33.44527778,-112.06694444
+Toronto Blue Jays,Toronto,ON,oth,43.64138889,-79.38916667
+Arizona Diamondbacks,Phoenix,AZ,MNT,33.44527778,-112.0669444
 Atlanta Braves,Atlanta,GA,SA,33.89,-84.468
 Chicago Cubs,Chicago,IL,ENC,41.94805556,-87.65555556
 Cincinnati Reds,Cincinnati,OH,ENC,39.0975,-84.50666667
-Colorado Rockies,Denver,CO,MNT,39.75611111,-104.99416667
+Colorado Rockies,Denver,CO,MNT,39.75611111,-104.9941667
 Los Angeles Dodgers,Los Angeles,CA,PAC,34.07361111,-118.24
 Miami Marlins,Miami,FL,SA,25.77805556,-80.21972222
 Milwaukee Brewers,Milwaukee,WI,ENC,43.02833333,-87.97111111
@@ -26,6 +26,6 @@ New York Mets,New York,NY,MA,40.75694444,-73.84583333
 Philadelphia Phillies,Philadelphia,PA,MA,39.90583333,-75.16638889
 Pittsburgh Pirates,Pittsburgh,PA,MA,40.44694444,-80.00583333
 San Diego Padres,San Diego,CA,PAC,32.7073,-117.1566
-San Francisco Giants,San Francisco,CA,PAC,37.77861111,-122.38916667
+San Francisco Giants,San Francisco,CA,PAC,37.77861111,-122.3891667
 St. Louis Cardinals,St. Louis,MO,WNC,38.6225,-90.19305556
 Washington Nationals,Washington,DC,SA,38.87277778,-77.0075
