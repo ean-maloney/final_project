@@ -9,8 +9,8 @@ The question we are seeking to answer is whether proximity to a professional bas
 - Geographical coordinates via Wikimedia API.
 - Distances to nearest professional stadiums computed using coordinates for stadiums and schools.
 
-## Data Exploration
-Our dataset consists of information from 1,812 colleges and universities whose pages were geotagged on Wikipedia. The original EADA table contained 2,074 schools, so approximately 13% of the data was lost because coordinates for the school could not be found through Wikimedia's API. We hypothesize that these schools without geotagged Wikipedia pages are mostly small colleges. Therefore, the loss of these data points is not especially significant for our project, since we are more interested in the revenues of larger schools, and because it seems evident that smaller schools will have lower revenues in virtue of a smaller student/alumni base, bracketing all other factors.
+## Data Exploratio1
+Our dataset consists of information from 1,811 colleges and universities whose pages were geotagged on Wikipedia. The original EADA table contained 2,074 schools, so approximately 13% of the data was lost because coordinates for the school could not be found through Wikimedia's API. We hypothesize that these schools without geotagged Wikipedia pages are mostly small colleges. Therefore, the loss of these data points is not especially significant for our project, since we are more interested in the revenues of larger schools, and because it seems evident that smaller schools will have lower revenues in virtue of a smaller student/alumni base, bracketing all other factors.
 
 Exploratory data analysis revealed no correlation between distance from professional teams and revenues for the whole dataset, but notable levels of correlation when the schools are grouped by region. This suggests that the region in which a college is located may be significant factor in determining the revenues for baskentball and baseball at that school. 
 
@@ -55,7 +55,7 @@ The benefit of MLR is that it is the simplest model to understand and returns co
 RFR and ABR are more complex ensemble methods. RFR combines multiple decision tree models to produce an aggregate model. ABR creates several models over a series of iterations, where in each iteration it attempts to correct the bad predictions of the previous iteration. These models are therefore have capabilities to produce more finely-tuned models than MLR.
 
 ## Results of Machine Learning Methods
-All three models performed roughly the same for baseball revenues, but none achieved an r2-score of greater than .27. MLR and RFR were more successful with basketball revenues, but both were still only able to achieve r2-scores between .3 and .4.
+All three models performed roughly the same for baseball revenues, but none achieved an r2-score of greater than .2. All models were more successful with basketball revenues, but both were still only able to achieve r2-scores between .3 and .4.
 
 # Database
 Our database uses PostgreSQL and the schema outlined in the Database folder. Our machine learning programs use tables pulled directly from this database.
