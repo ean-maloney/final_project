@@ -1,1 +1,1 @@
-web: gunicorn dashboard.app:app
+web: gunicorn Dashboard.app:app
