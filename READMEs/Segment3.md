@@ -37,7 +37,7 @@ The project is broken into four parts:
 
 # Machine Learning
 ## Overview
-We attempted to apply several machine learning algotithms to out data to develop models of the correlation between distance from professional stadiums and other relevant factors and the revenues of college programs. Multiple linear regression, random forest regression, and AdaBoost methods were all unsuccessful at correlating the input factors to revenues in either sport. Possible reasons for this lack of success are the relatively small number of data points (>2000 for either sport) and the shape of the overall distribution (which I hypothesize to be bimodal with a split betwee high-revenue schools and a larger number of low-revenue schools). 
+We attempted to apply several machine learning algotithms to out data to develop models of the correlation between distance from professional stadiums and other relevant factors and the revenues of college programs. Multiple linear regression, random forest regression, and AdaBoost methods were all unsuccessful at correlating the input factors to revenues in either sport. Possible reasons for this lack of success are the relatively small number of data points (<2000 for either sport) and the shape of the overall distribution (which I hypothesize to be bimodal with a split betwee high-revenue schools and a larger number of low-revenue schools). 
 
 ## Data Preprocessing and Feature Selection
 The data input for our machine learning model was a combination of the columns from our school_geo and eada tables that we determined were relevant for the model. The features deemed relevant were:
