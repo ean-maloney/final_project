@@ -9,7 +9,13 @@ The question we are seeking to answer is whether proximity to a professional bas
 - Geographical coordinates via Wikimedia API.
 - Distances to nearest professional stadiums computed using coordinates for stadiums and schools.
 
-## Data Exploration
+## Technologies Used
+- Python (Pandas, Sci-Kit Learn, Seaborn)
+- postgreSQL
+- Tableau
+- Heroku
+
+# Data Exploration
 Our dataset consists of information from 1,808 colleges and universities whose pages were geotagged on Wikipedia. The original EADA table contained 2,074 schools, so approximately 13% of the data was lost because coordinates for the school could not be found through Wikimedia's API. We hypothesize that these schools without geotagged Wikipedia pages are mostly small colleges. Three additional schools were dropped because they shared names with schools outside the United States and were therefore mislocated by the API.
 
 We hypothesize that most of the schools that had to be dropped were relatively small. Thus, the loss of these data points is not especially significant for our project, since we are more interested in the revenues of larger schools, and because it seems evident that smaller schools will have lower revenues in virtue of a smaller student/alumni base, bracketing all other factors.
