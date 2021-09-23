@@ -14,7 +14,7 @@
     <h2>Use the search feature below to see the nearest NBA and MLB teams to a school.</h2>
     <!-- https://stackoverflow.com/questions/52644035/how-to-show-a-pandas-dataframe-into-a-existing-flask-html-table -->
     {% for table in tables %} 
-        {{titles[loop.index]}}
+        <!-- {{titles[loop.index]}} -->
         {{table|safe}}
     {% endfor %}
    
