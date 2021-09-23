@@ -11,10 +11,9 @@
     <h1 id="title">College Revenues and the Geography of Sports</h1>
     <h3 id="attribution">By Ed Bowen and Ean Maloney</h3>
     
-    <h2>Use the search feature below to see the nearest NBA and MLB teams to a school.</h2>
+    <h2>Use the search feature below to see the nearest NBA and MLB teams to a school (distances are in miles).</h2>
     <!-- https://stackoverflow.com/questions/52644035/how-to-show-a-pandas-dataframe-into-a-existing-flask-html-table -->
     {% for table in tables %} 
-        <!-- {{titles[loop.index]}} -->
         {{table|safe}}
     {% endfor %}
    
