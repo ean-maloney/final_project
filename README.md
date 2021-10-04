@@ -1,6 +1,6 @@
 # Presentation
 ## Topic
-The question we are seeking to answer is whether proximity to a professional baseball or basketball venue has any effect on the revenues of college athletics programs with regard to those sports. This topic was chosen becasue the data were readily available and the question was of personal interest to our teaam.
+The question we are seeking to answer is whether proximity to a professional baseball or basketball venue has any effect on the revenues of college athletics programs with regard to those sports. This topic was chosen becasue the data were readily available and the question was of personal interest to our team.
 
 ## Data Sources
 - College and financial data from Equity in Athletics Data Analysis (EADA).
